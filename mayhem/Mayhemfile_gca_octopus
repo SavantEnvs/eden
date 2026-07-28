@@ -1,0 +1,4 @@
+project: savantenvs/eden
+target: gca_octopus
+cmds:
+    - cmd: /mayhem/gca_octopus
