@@ -1,0 +1,4 @@
+project: savantenvs/eden
+target: gca_small
+cmds:
+    - cmd: /mayhem/gca_small
