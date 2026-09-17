@@ -1,0 +1,7 @@
+project: savantenvs/eden
+target: range_medium-buggy-mhh-run-407
+testsuite:
+    - https://$MAYHEM_DOMAIN/$MAYHEM_PROJECT/$MAYHEM_TARGET/testsuite.tar
+    - file://mayhem/range_medium-buggy-mhh-run-407/testsuite
+cmds:
+    - cmd: /mayhem/range_medium

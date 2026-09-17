@@ -1,0 +1,7 @@
+project: savantenvs/eden
+target: range_octopus-buggy-mhh-run-447
+testsuite:
+    - https://$MAYHEM_DOMAIN/$MAYHEM_PROJECT/$MAYHEM_TARGET/testsuite.tar
+    - file://mayhem/range_octopus-buggy-mhh-run-447/testsuite
+cmds:
+    - cmd: /mayhem/range_octopus

@@ -1,0 +1,7 @@
+project: savantenvs/eden
+target: gca_octopus-buggy-mhh-run-488
+testsuite:
+    - https://$MAYHEM_DOMAIN/$MAYHEM_PROJECT/$MAYHEM_TARGET/testsuite.tar
+    - file://mayhem/gca_octopus-buggy-mhh-run-488/testsuite
+cmds:
+    - cmd: /mayhem/gca_octopus

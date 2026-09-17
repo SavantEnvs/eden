@@ -1,0 +1,7 @@
+project: savantenvs/eden
+target: gca_small-buggy-mhh-run-571
+testsuite:
+    - https://$MAYHEM_DOMAIN/$MAYHEM_PROJECT/$MAYHEM_TARGET/testsuite.tar
+    - file://mayhem/gca_small-buggy-mhh-run-571/testsuite
+cmds:
+    - cmd: /mayhem/gca_small
